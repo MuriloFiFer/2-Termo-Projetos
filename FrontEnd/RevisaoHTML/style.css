@@ -1,7 +1,9 @@
 
 header{
+    width: 100%;
     background-color: rgb(163, 163, 211);
-    height: 50px;
+    height: 10vh;
+    display: flex;
 }
 header img{
     height: 10vh;
@@ -18,7 +20,16 @@ header img{
 
 }
 .linkmenu{
-    font-size: 3em;
+    font-size: 1cm;
     color: aliceblue;
     text-decoration: none;
+}
+
+@media screen and  (max-width:800px) {
+    .hamburguer{
+        display: inline;
+    }
+    .menu{
+        display: none;
+}
 }
