@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(42, 141, 141);
+}
+.section{
+    display: flex;
+    margin-top: 15%;
+    width: 50%;
+    height: 10px;
+    align-items:center;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    margin-top: 2%;
+   }
+
+   img{
+    width: 100%;
+    height: 400px;
+    }
+   
+
+
+    #img1{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+    }
+    #img2{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+
+    }
+    footer{
+      
+        background-color: rgba(0, 0, 0, 0.459);
+        width: 100%;
+        position: fixed; /* Fixado o footer na tela */
+        bottom: 0;
+      
+    }
+
+    .cards{
+        display:flex;
+      background-color: rgba(159, 179, 179, 0.623);
+      justify-content: space-between;
+    margin-left: 20%;
+      margin-top: 2%;
+      width: 60%;
+      height: 50vh;
+    }
+    #card1{
+       
+        height: 40vh;
+    }
+    #card2{
+      
+        height: 40vh;
+    }
+    #card3{
+          height: 40vh;
+    }
+
+    #txt1Prod{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    #h1Prod{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .form{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.247);
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 50%; 
+        height: 100vh;
+         padding: 25px; 
+        border: 3px solid #ffffff98; }
+    
+
+
+
+
+    @media screen and  (max-width:800px) {
+        .menu{
+            display: none;  /* deixando o menu "hamb" escondido com tela inteira, aparecendo apenas apartir de 80px */
+
+            
+        }
+
+       
+    }
+
+
+
+
+    
+
+    

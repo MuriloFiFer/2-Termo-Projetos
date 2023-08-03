@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleHome.css">
+</head>
+
+<body>
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">Início</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cadastro.html">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="form">
+
+        
+    <form>
+        <h2>Preencha o formulario para se cadastrar em nosso site.</h2>
+        <br>
+        <div class="mb-3"  id="1nome">
+        <label for="fname">Primeiro Nome:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Primeiro nome">  <!-- "placeholder deixa escrita no campo de preenchimento"-->
+        </div>
+        <div class="mb-3"  id="2nome">
+        <label for="lname">Sobre Nome:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Sobre nome">
+        </div>
+        <div class="mb-3" id="endereco">
+        <label for="ender">Endereço:</label><br>
+        <input type="text" id="ender" endereco="ender" placeholder="Endereço">
+        </div>
+        <div class="mb-3" id="email">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Email">
+        <div id="emailHelp" class="form-text" style="color: red ;">Nunca compartilharemos seu e-mail com mais ninguém</div>
+        </div>
+        <div class="mb-3"  id="confEmail">
+            <label for="pconfEmail" class="form-label">Confirmação de Email</label>
+            <div id="emailHelp" class="form-text">Insira o mesmo email</div>
+            <input type="email" class="form-control" id="exampleInputEmail">  
+          </div>
+          <div class="mb-3" id="senha">
+            <label for="senh">Senha:</label><br>
+        <input type="text" id="email" name="email" placeholder="Senha">
+        <div id="senhaHelp" class="form-text" style="color: red ;">Nunca compartilharemos sua senha com mais ninguém</div>
+          </div>
+          <div class="mb-3" id="confSenha">
+            <label for="senhConf">Confirmação de senha:</label><br>
+        <input type="text" id="confSenha" name="confSenha" placeholder="Senha">
+        <div id="senhalHelp" class="form-text" style="color: red ;">Nunca compartilharemos sua senha com mais ninguém</div>
+          </div>
+
+
+        <input type="submit" value="Enviar os dados" /> <!--cirando botão enviar dados-->
+        <input type="reset" value="Limpar os dados" /> <!--criando botão limpar dados-->
+    
+    </form>
+
+    </div>
+
+
+
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+crossorigin="anonymous"></script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+    <h1>Atividade de revisão do 1º Termo</h1>
+</footer>
+
+</body>
+
+
+
+
+
+</html>
