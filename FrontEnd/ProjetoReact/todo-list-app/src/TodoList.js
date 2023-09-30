@@ -8,8 +8,7 @@ function TodoList() {
     const addTask = () => {
         if (newTask.trim() !== '') {
             // Define uma função 'addTask' para adicionar uma nova tarefa à
-            lista.
-                // Verifica se 'newTask' não está vazio.
+                         // Verifica se 'newTask' não está vazio.
                 setTasks([...tasks, newTask]);
             // Usa 'setTasks' para adicionar a nova tarefa ao array 'tasks'.
             setNewTask('');
@@ -23,7 +22,7 @@ function TodoList() {
         // Atualiza o array 'tasks' com as tarefas restantes, após aexclusão.
     };
     return (
-        <div>
+        <div itemID='teste'>
             <h1>Lista de Tarefas</h1>
             {/* Renderiza um título na página. */}
             <input
