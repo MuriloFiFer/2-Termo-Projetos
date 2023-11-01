@@ -29,6 +29,7 @@ export class Curriculo {
     this.email = email;
     this.telefone = telefone;
     this.endereco = endereco;
+    
     this.formacaoAcademica = formacaoAcademica;
     this.experienciaProfissional = experienciaProfissional;
     this.habilidades = habilidades;
