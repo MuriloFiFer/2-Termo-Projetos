@@ -10,6 +10,8 @@ import { HeaderComponent } from './header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PainelVagasComponent } from './painel-vagas/painel-vagas.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,14 +22,18 @@ import { HttpClientModule } from '@angular/common/http';
     CurriculosComponent,
     VagasComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PainelVagasComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    HttpClientModule,
-  ],
+
+    imports: [
+      BrowserModule,
+      AppRoutingModule,
+      NgbModule,
+      HttpClientModule,
+      FormsModule
+      ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
