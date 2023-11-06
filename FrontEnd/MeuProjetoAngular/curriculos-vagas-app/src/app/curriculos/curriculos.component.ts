@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./curriculos.component.css']
 })
 export class CurriculosComponent {
+submitForm() {
+throw new Error('Method not implemented.');
+}
+curriculos: any;
 
 }
